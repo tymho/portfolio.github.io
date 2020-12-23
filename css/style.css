@@ -612,7 +612,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 480px) {
   .author .author-inner {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 .author .desc {
