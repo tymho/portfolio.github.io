@@ -381,7 +381,10 @@ h1, h2, h3, h4, h5, h6, figure {
   content: "\e9af";
 }
 
-#fh5co-started,
+.fh5co-bg-section {
+  background: rgba(0, 0, 0, 0.05);
+}
+
 #fh5co-author,
 #fh5co-work,
 #fh5co-about,
@@ -391,7 +394,6 @@ h1, h2, h3, h4, h5, h6, figure {
   clear: both;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-started,
   #fh5co-author,
   #fh5co-work,
   #fh5co-about,
@@ -661,35 +663,6 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #cabcab !important;
 }
 
-#fh5co-started {
-  background: #cabcab;
-}
-#fh5co-started .fh5co-heading {
-  margin-bottom: 20px !important;
-}
-#fh5co-started .fh5co-heading h2 {
-  color: #fff;
-  color: #685641;
-  margin-bottom: 20px !important;
-}
-#fh5co-started .fh5co-heading p {
-  color: #685641;
-}
-#fh5co-started .btn {
-  margin-top: 20px;
-  border: 3px solid #8c7961;
-  color: #8c7961;
-  font-size: 20px;
-  font-weight: 400;
-  padding: 20px 0;
-  padding-left: 70px;
-  padding-right: 70px;
-}
-#fh5co-started .btn:hover {
-  background: #8c7961 !important;
-  border: 3px solid #8c7961 !important;
-  color: #fff;
-}
 
 #fh5co-footer {
   background: #efefef;
