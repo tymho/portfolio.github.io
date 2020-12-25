@@ -598,7 +598,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .author {
   width: 100%;
   float: left;
-  margin-bottom: 5em; 
+  margin-bottom: 1em; /*was 5*/
 }
 .author .author-inner {
   background-size: cover;
