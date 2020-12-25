@@ -438,7 +438,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .feature-center {
-    margin-bottom: 10px; /*changed*/
+    margin-bottom: 50px;
     text-align: center;
   }
   .feature-center .icon {
@@ -587,7 +587,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .title {
-  margin-bottom: 10px; /*changed*/
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
   .title {
@@ -606,13 +606,13 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
   width: 40%;
-  height: 350px;
+  height: 200px; /*was 350*/
   float: left;
 }
 @media screen and (max-width: 480px) {
   .author .author-inner {
     width: 100%;
-    margin-bottom: 10 px; /*changed*/
+    margin-bottom: 40px;
   }
 }
 .author .desc {
