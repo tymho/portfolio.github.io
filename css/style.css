@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Montserrat", Noto Sans, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -65,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Montserrat", Noto Sans, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -117,9 +117,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Montserrat", Noto Sans, sans-serif;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -605,9 +605,10 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
-  width: 40%;
-  height: 350px; 
+  width: 34%; /*was 40*/
+  height: 250px; /*was 350*/
   float: left;
+  border-radius: 50%; /*added*/
 }
 @media screen and (max-width: 480px) {
   .author .author-inner {
@@ -619,6 +620,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 60%;
   float: left;
   padding-left: 50px;
+  padding-top: 65px; /*added*/
 }
 @media screen and (max-width: 480px) {
   .author .desc {
@@ -628,7 +630,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .author .desc span {
   font-size: 13px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   display: block;
   margin-bottom: 20px;
   letter-spacing: 1px;
