@@ -48,13 +48,13 @@ body {
 }
 
 a {
-  color: #cabcab;
+  color: #333333f2; /*changed from #cadcad*/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #cabcab;
+  color: #333333f2; /*changed from #cadcad*/
   outline: none;
   text-decoration: none;
 }
@@ -555,7 +555,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 0em; /*changed from 5em*/
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -612,8 +612,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   .author .author-inner {
-    width: 100%;
+    width: 70%; /*was 100*/
     margin-bottom: 40px;
+    margin-left: 50px; /*added*/
   }
 }
 .author .desc {
